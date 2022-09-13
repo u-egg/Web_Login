@@ -2,7 +2,7 @@
 
 ## Font
 
-``
+`Noto Sans KR , yg-jalnan`
 
 ## Color
 
@@ -10,7 +10,7 @@
 
 ## Library
 
-``
+`jquery`
 
 ## Api
 ``
