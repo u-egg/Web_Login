@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_2</title>
+    <!--css-->
+    <link href="../css/Login_2.css" rel="stylesheet">
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/6e9e1e23e9.js" crossorigin="anonymous"></script>
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+</head>
+
+<body>
+    <section class="body_img">
+        <div class="title_box">
+            <div></div>
+            <p>Building Wind Risk Analysis & Preventive Response System</p>
+            <p>빌딩풍 위험도 분석 및 예방·대응 시스템</p>
+        </div>
+    </section>
+    <section class="login_frame">
+        <form id="securedLoginForm" name="securedLoginForm" method="post" action="./logincheck.do" autocomplete="off">
+            <div class="index_box">
+                <p>ID</p>
+                <div class="input_box"> <INPUT type="text" class="text" maxLength="20" size="20" onkeyup="enterkey();"
+                        name="login_id" id="login_id" itemname="아이디" required minlength="2" placeholder="아이디를 입력하세요."></div>
+                <p>PW</p>
+                <div class="input_box2"> <INPUT type="password" class="text" maxLength=20 size=20 name="login_pass"
+                        id="login_pass" itemname="패스워드" required onkeyup="enterkey();" placeholder="비밀번호를 입력하세요.">
+                </div>
+                <button type="submit" class="input_box3">LOGIN</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
