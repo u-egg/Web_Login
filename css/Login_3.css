@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 62.5%; */
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+article{
+    width: 100vw;
+    display: flex;
+}
+
+.login_form{
+    width: 30%;
+    height: 100vh;
+}
+
+.bg{
+    width: 70%;
+    height: 100vh;
+    background-image: url(../assets/login_3_bg.jpg);
+    background-size: 100vw 100vh;
+}
+
+.login_form .top{
+    height: 50vh;
+    border-right: 3px solid #95999E;
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.login_form .bottom{
+    height: 50vh;
+    border-left: 3px solid #95999E;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.login_form .text{
+    width: 70%;
+    height: 40vh;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+}
+
+.title{
+    color: #3930d8;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.sub_title{
+    color: #6f6abd;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.form{
+    width: 100%;
+    margin-top: 80px;
+    position: relative;
+}
+
+.form input{
+    width: 100%;
+    height: 55px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    padding: 20px;
+    padding-left: 80px;
+    border: 3px solid #BFB9B6;
+    color: #333;
+}
+
+input:focus{
+    outline: none;
+}
+
+i{
+    font-size: 26px;
+    color: #BFB9B6;
+    padding-top: 12px;
+}
+
+.user{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    border-right: 3px solid #BFB9B6;
+    height: 52px;
+    width: 40px;
+}
+
+.key{
+    position: absolute;
+    top: 98px;
+    left: 20px;
+    border-right: 3px solid #BFB9B6;
+    height: 52px;
+    width: 40px;
+}
+
+.btn{
+    margin-top: 20px;
+    width: 25%;
+    height: 50px;
+    float: right;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3930d8;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #6f6abd;
+}
+.clear{
+    clear: both;
+}
+
+.logo{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo img{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.other_btn{
+    margin: 0 auto;
+    width: 70%;
+    height: 55px;
+    background-color: #FEE500;
+    color: #000;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 12px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
